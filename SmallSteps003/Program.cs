@@ -14,10 +14,10 @@ namespace SmallSteps003
 
         public static void Main(string[] args)
         {
-            result_addition = 9; // should be: a + b;
-            result_substraction = 3;
-            result_multiply = 18;
-            result_division = 2;
+            result_addition = a + b; // should be: a + b;
+            result_substraction = a - b;
+            result_multiply = a * b;
+            result_division = a / b;
 
             Console.WriteLine("Der Rechenking sagt {0} + {1} = {2}", a, b, result_addition);
             Console.WriteLine("Der Rechenking sagt {0} - {1} = {2}", a, b, result_substraction);
